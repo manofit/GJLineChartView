@@ -16,8 +16,8 @@
 		E1B519C71FA87ACA00B688A4 /* GJLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B519C51FA87AC600B688A4 /* GJLineChartView.m */; };
 		E1B519C81FA87ACD00B688A4 /* XAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B519C61FA87AC600B688A4 /* XAxisView.m */; };
 		E1B519C91FA87ACF00B688A4 /* YAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B519C31FA87AC500B688A4 /* YAxisView.m */; };
-		E1B519CB1FA882DE00B688A4 /* Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.06.31.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B519CA1FA882DB00B688A4 /* Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.06.31.png */; };
-		E1B519CD1FA8830F00B688A4 /* Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.08.01.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B519CC1FA8830C00B688A4 /* Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.08.01.png */; };
+		E1B8447D2068D656007D4F1B /* GJChartDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B8447C2068D656007D4F1B /* GJChartDrawView.m */; };
+		E1B844802068D6DF007D4F1B /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B8447E2068D6DF007D4F1B /* UIColor+expanded.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +37,10 @@
 		E1B519C41FA87AC600B688A4 /* GJLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJLineChartView.h; sourceTree = "<group>"; };
 		E1B519C51FA87AC600B688A4 /* GJLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJLineChartView.m; sourceTree = "<group>"; };
 		E1B519C61FA87AC600B688A4 /* XAxisView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XAxisView.m; sourceTree = "<group>"; };
-		E1B519CA1FA882DB00B688A4 /* Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.06.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.06.31.png"; sourceTree = "<group>"; };
-		E1B519CC1FA8830C00B688A4 /* Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.08.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.08.01.png"; sourceTree = "<group>"; };
+		E1B8447B2068D656007D4F1B /* GJChartDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJChartDrawView.h; sourceTree = "<group>"; };
+		E1B8447C2068D656007D4F1B /* GJChartDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJChartDrawView.m; sourceTree = "<group>"; };
+		E1B8447E2068D6DF007D4F1B /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		E1B8447F2068D6DF007D4F1B /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +73,6 @@
 		E1B519A91FA87A8200B688A4 /* GJLineChartView */ = {
 			isa = PBXGroup;
 			children = (
-				E1B519CC1FA8830C00B688A4 /* Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.08.01.png */,
-				E1B519CA1FA882DB00B688A4 /* Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.06.31.png */,
 				E1B519C01FA87AB000B688A4 /* GJLineChartTool */,
 				E1B519AA1FA87A8200B688A4 /* AppDelegate.h */,
 				E1B519AB1FA87A8200B688A4 /* AppDelegate.m */,
@@ -92,10 +92,14 @@
 			children = (
 				E1B519C41FA87AC600B688A4 /* GJLineChartView.h */,
 				E1B519C51FA87AC600B688A4 /* GJLineChartView.m */,
+				E1B8447B2068D656007D4F1B /* GJChartDrawView.h */,
+				E1B8447C2068D656007D4F1B /* GJChartDrawView.m */,
 				E1B519C21FA87AC500B688A4 /* XAxisView.h */,
 				E1B519C61FA87AC600B688A4 /* XAxisView.m */,
 				E1B519C11FA87AC500B688A4 /* YAxisView.h */,
 				E1B519C31FA87AC500B688A4 /* YAxisView.m */,
+				E1B8447F2068D6DF007D4F1B /* UIColor+expanded.h */,
+				E1B8447E2068D6DF007D4F1B /* UIColor+expanded.m */,
 			);
 			path = GJLineChartTool;
 			sourceTree = "<group>";
@@ -158,10 +162,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1B519CB1FA882DE00B688A4 /* Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.06.31.png in Resources */,
 				E1B519B71FA87A8200B688A4 /* LaunchScreen.storyboard in Resources */,
 				E1B519B41FA87A8200B688A4 /* Assets.xcassets in Resources */,
-				E1B519CD1FA8830F00B688A4 /* Simulator Screen Shot - iPhone 8 - 2017-10-31 at 18.08.01.png in Resources */,
 				E1B519B21FA87A8200B688A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,7 +179,9 @@
 				E1B519C91FA87ACF00B688A4 /* YAxisView.m in Sources */,
 				E1B519BA1FA87A8200B688A4 /* main.m in Sources */,
 				E1B519AC1FA87A8200B688A4 /* AppDelegate.m in Sources */,
+				E1B8447D2068D656007D4F1B /* GJChartDrawView.m in Sources */,
 				E1B519C81FA87ACD00B688A4 /* XAxisView.m in Sources */,
+				E1B844802068D6DF007D4F1B /* UIColor+expanded.m in Sources */,
 				E1B519C71FA87ACA00B688A4 /* GJLineChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7A6FL3AQ2G;
+				DEVELOPMENT_TEAM = NS2J6E32M9;
 				INFOPLIST_FILE = GJLineChartView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GJ.GJLineChartView;
@@ -327,7 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7A6FL3AQ2G;
+				DEVELOPMENT_TEAM = NS2J6E32M9;
 				INFOPLIST_FILE = GJLineChartView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GJ.GJLineChartView;

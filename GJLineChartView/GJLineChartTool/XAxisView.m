@@ -65,9 +65,9 @@
         else {
             _defaultSpace = 40;
         }
-
+        
         self.pointGap = _defaultSpace;
-
+        
         
     }
     
@@ -367,6 +367,23 @@
                 [[NSString stringWithFormat:@"%.0f%@", [num floatValue],self.unit] drawAtPoint:CGPointMake(drawPoint.x, drawPoint.y+15)withAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:12],NSForegroundColorAttributeName:[UIColor greenColor]}];
                 
             }
+            
+            
+            //画十字线
+            //            CGContextRestoreGState(context);
+            //            CGContextSetLineWidth(context, 1);
+            //            CGContextSetFillColorWithColor(context, [UIColor lightGrayColor].CGColor);
+            //            CGContextSetStrokeColorWithColor(context, [UIColor lightGrayColor].CGColor);
+            //
+            ////            // 选中横线
+            ////            CGContextMoveToPoint(context, 0, selectPoint.y);
+            ////            CGContextAddLineToPoint(context, self.frame.size.width, selectPoint.y);
+            //
+            //            // 选中竖线
+            //            CGContextMoveToPoint(context, selectPoint.x, 0);
+            //            CGContextAddLineToPoint(context, selectPoint.x, self.frame.size.height- textSize.height - 5);
+            //
+            //            CGContextStrokePath(context);
             
             [self drawLine:context startPoint:CGPointMake(selectPoint.x, 0) endPoint:CGPointMake(selectPoint.x, self.frame.size.height- textSize.height - 5) lineColor:[UIColor lightGrayColor] lineWidth:1];
             
