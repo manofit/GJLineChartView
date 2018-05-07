@@ -2,9 +2,9 @@
 支持显示折线图、柱状图、饼状图。其中折线图可以伸缩并长按显示数据，柱状图也可以长按显示数据。
 
 ### 效果图
-![柱状图](https://github.com/manofit/GJLineChartView/blob/master/%E6%9F%B1%E7%8A%B6%E5%9B%BE.gif)
-![饼状图](https://github.com/manofit/GJLineChartView/blob/master/%E9%A5%BC%E7%8A%B6%E5%9B%BE.gif)
-![折线图](https://github.com/manofit/GJLineChartView/blob/master/%E6%8A%98%E7%BA%BF%E5%9B%BE.gif)
+![柱状图](https://github.com/manofit/ScreenPics/blob/master/LineChart_Pics/%E6%9F%B1%E7%8A%B6%E5%9B%BE.gif)
+![饼状图](https://github.com/manofit/ScreenPics/blob/master/LineChart_Pics/%E9%A5%BC%E7%8A%B6%E5%9B%BE.gif)
+![折线图](https://github.com/manofit/ScreenPics/blob/master/LineChart_Pics/%E6%8A%98%E7%BA%BF%E5%9B%BE.gif)
 
 ### 导入项目
 - 你可以直接下载后拖进项目使用；
