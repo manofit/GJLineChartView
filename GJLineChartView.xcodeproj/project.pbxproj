@@ -319,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NS2J6E32M9;
 				INFOPLIST_FILE = GJLineChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GJ.GJLineChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -333,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NS2J6E32M9;
 				INFOPLIST_FILE = GJLineChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GJ.GJLineChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
